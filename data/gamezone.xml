@@ -1,0 +1,175 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="/home"?>
+<gamezone xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="http://www.gamezone.com schema_v2.xsd">
+    <games>
+        <game>
+            <title>League of Legends</title>
+            <sinopse>No League of Legends, os jogadores assumem o papel de "invocadores", que controlam campeões com habilidades únicas, que formam uma equipa e lutam contra a adversária de outros invocadores ou controlados pelo computador. No modo mais popular do jogo, o objetivo de cada equipa é destruir o Nexus da equipa adversária, uma construção localizada na base e protegida por outras estruturas. Cada partida de League of Legends é distinta, pois os campeões começam sempre fracos e progridem através da acumulação de ouro e da experiência ao longo do jogo.</sinopse>
+            <img>https://theme.zdassets.com/theme_assets/43400/87a1ef48e43b8cf114017e3ad51b801951b20fcf.jpg</img>
+            <producer>Riot Games</producer>
+            <category> MOBA </category>
+            <yearReleased>2009</yearReleased>
+            <programs>C++ , Lua , C# , ActionScript , Erlang , PHP and SQL</programs>
+            <platforms>Windows , MacOS </platforms>
+            <artists>Edmundo Sanchez,Troy Adam,Paul Kwon</artists>
+            <teaser>https://www.youtube.com/watch?v=k_PoqPRKjn8</teaser>
+        </game>
+        <game>
+            <title>Dota 2</title>
+            <img>https://pbs.twimg.com/profile_images/1148484652358746112/UdJALHjZ.png</img>
+            <sinopse>O jogo é baseado em partidas no modo online e offline, em cada uma delas o objetivo é derrotar a equipa adversária e, para isso, é, indispensavelmente, necessário destruir o Ancestral (Ancient), que, por sua vez, se localiza no centro da base inimiga. Cada base é defendida por torres e ondas de unidades (chamadas de criaturas) que percorrem os caminhos principais do mapa que levam à suas bases.</sinopse>
+            <producer>Valve Corporation</producer>
+            <category> Multiplayer , Co-op </category>
+            <yearReleased>2013</yearReleased>
+            <programs>Source 2</programs>
+            <platforms>Windows , MacOS , Linux </platforms>
+            <artists>Jason Hayes ,Tim Larkin ,Chance Thomas</artists>
+            <teaser>https://www.youtube.com/watch?v=S_Rlts_pEps</teaser>
+        </game>
+        <game>
+            <title>Counter-Strike : Global Offensive</title>
+            <img>https://cdn.cloudflare.steamstatic.com/steam/apps/730/header.jpg?t=1607046958</img>
+            <sinopse>O Counter-Strike: Global Offensive (CS:GO) é a continuação do jogo de equipas cheio de ação que foi pioneiro quando foi lançado há 12 anos atrás. O CS: GO apresenta-se com novos mapas, personagens, armas e ainda oferece versões atualizadas de conteúdo do CS clássico (de_dust, etc.). Para além disso, o CS:GO introduz novos modos de jogo, matchmaking, tabelas de classificação e muito mais.</sinopse>
+            <producer>Valve Corporation , Hidden Path Entertainment</producer>
+            <category>Multiplayer FPS</category>
+            <yearReleased>2012</yearReleased>
+            <programs>Source Engine</programs>
+            <platforms>Windows , MacOS , Linux , Xbox , Playstation</platforms>
+            <artists>Mike Morasky</artists>
+            <teaser>https://www.youtube.com/watch?v=edYCtaNueQY</teaser>
+        </game>
+        <game>
+            <title>Fifa 21</title>
+            <img>https://s2.glbimg.com/VC3nkVOmAda02AYCe04T3n-HXW8=/0x0:7200x10200/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2020/z/N/LRwIwoQiCXHm0omK8TTw/eas-fifa21-standard-keyart-vert-rgb.jpg</img>
+            <sinopse>FIFA 21 é o novo título da franquia de futebol da EA Games, principal concorrente do PES 2021, outra série de jogos de futebol. </sinopse>
+            <producer>EA Sports</producer>
+            <category> Sport </category>
+            <yearReleased>2020</yearReleased>
+            <programs>Frostbite Engine</programs>
+            <platforms>Windows , MacOS , Linux , Xbox , Playstation</platforms>
+            <teaser>https://www.youtube.com/watch?v=Jmliox1trPQ</teaser>
+        </game>
+        <game>
+            <title>Tom Clancy's Rainbow Six: Siege</title>
+            <img>https://store.ubi.com/dw/image/v2/ABBS_PRD/on/demandware.static/-/Sites-masterCatalog/en_US/dw64173a87/images/large/56c494ad88a7e300458b4d5a.jpg?sw=341-sh=450-sm=fit</img>
+            <sinopse>Os jogadores assumem o papel de um dos membros da equipe contra-terrorista Rainbow, que tem de enfrentarum novo inimigo chamado The White Masks, que estão a causar o caos por todo o mundo apesar de se desconhecer as suas reais intenções.</sinopse>
+            <producer>Ubisoft</producer>
+            <category> FPS </category>
+            <yearReleased>2015</yearReleased>
+            <programs>AnvilNext</programs>
+            <platforms>Windows , Xbox , Playstation</platforms>
+            <artists> Sebastien Labbe ,Augusto César, Andrew Witts</artists>
+            <teaser>https://www.youtube.com/watch?v=6wlvYh0h63k</teaser>
+        </game>
+        <game>
+            <title>Minecraft</title>
+            <img>https://upload.wikimedia.org/wikipedia/pt/thumb/9/9c/Minecraft_capa.png/260px-Minecraft_capa.png</img>
+            <sinopse>Em Minecraft, os jogadores exploram um mundo aberto tridimensional intencionalmente em blocos, pixelizado e gerado proceduralmente, podendo descobrir e extrair matérias-primas, ferramentas artesanais, construir estruturas ou terraplanagens e, dependendo do modo de jogo, podem combater inimigos controlados por computador, bem como cooperar ou competir contra outros jogadores no mesmo mundo.</sinopse>
+            <producer>Mojang Studios</producer>
+            <category> Sandbox, Survival </category>
+            <yearReleased>2011</yearReleased>
+            <programs>Lightweight Java Game Library</programs>
+            <platforms>Windows , Xbox , Playstation , iOS , Android , Raspberry Pi , Windows Phone, Fire OS, Wii U, Nintendo Switch</platforms>
+            <artists> Markus Toivonen, Jasper Boerstra , Daniel Rosenfeld</artists>
+            <teaser>https://www.youtube.com/watch?v=MmB9b5njVbA</teaser>
+        </game>
+        <game>
+            <title>Cyberpunk 2077</title>
+            <img>https://upload.wikimedia.org/wikipedia/pt/f/f7/Cyberpunk_2077_capa.png</img>
+            <sinopse>A história do jogo é ambientada em Night City, um mundo aberto com seis regiões distintas situado no universo da franquia Cyberpunk. É jogado a partir da perspectiva em primeira pessoa, com os jogadores a controlar a personagem V. que pode adquirir habilidades de hacking e maquinários, um arsenal de armas de longo alcance e opções de combate no estilo corpo a corpo.</sinopse>
+            <producer>CD Projekt Red , Warner Bros. Games</producer>
+            <category> RPG, FPS </category>
+            <yearReleased>2020</yearReleased>
+            <programs>REDengine 4</programs>
+            <platforms>Windows , Xbox , Playstation ,Google Stadia</platforms>
+            <artists>Paweł Mielniczuk, Katarzyna Redesiuk ,Jakub Knapik ,Mateusz Popławski</artists>
+            <teaser>https://www.youtube.com/watch?v=QkkoHAzjnUs</teaser>
+        </game>
+        <game>
+            <title>Grand Theft Auto V</title>
+            <img>https://upload.wikimedia.org/wikipedia/pt/thumb/8/80/Grand_Theft_Auto_V_capa.png/270px-Grand_Theft_Auto_V_capa.png</img>
+            <sinopse>O jogo  passa-se no estado ficcional de San Andreas, com a história da campanha um jogador seguindo três criminosos e os seus esforços para realizarem assaltos sob a pressão de uma agência governamental. O mundo aberto permite que os jogadores naveguem livremente pelas áreas rurais e urbanas de San Andreas.</sinopse>
+            <producer>Rockstar Games</producer>
+            <category> Action </category>
+            <yearReleased>2013</yearReleased>
+            <programs>RAGE</programs>
+            <platforms>Windows , Xbox , Playstation</platforms>
+            <artists>Adam Fowler, Aaron Garbut ,Michael Unsworth ,Imran Sarwar</artists>
+            <teaser>https://www.youtube.com/watch?v=SgSX3gOrj60</teaser>
+        </game>
+        <game>
+            <title>Rocket League</title>
+            <img>https://upload.wikimedia.org/wikipedia/pt/thumb/e/e8/Rocket_League.jpg/250px-Rocket_League.jpg</img>
+            <sinopse>Descrito como "futebol, mas com carros movidos a foguete", Rcket League tem de um a quatro jogadores designados para cada uma das duas equipas, usando veículos movidos a foguete para acertar o golodoadversário e marcar pontos ao longo de uma partida.</sinopse>
+            <producer>Psyonix</producer>
+            <category> Sport </category>
+            <yearReleased>2015</yearReleased>
+            <programs>Unreal Engine 3</programs>
+            <platforms>Windows , Xbox , Playstation, Linux, MacOS</platforms>
+            <artists>Mike Ault, Bobby McCoin ,Corey Davis ,Sarah Hebbler</artists>
+            <teaser>https://www.youtube.com/watch?v=5xy4n73WOMM</teaser>
+        </game>
+        <game>
+            <title>Forza Horizon 4</title>
+            <img>https://store-images.s-microsoft.com/image/apps.20615.14094456225993959.2d017079-463a-4bd6-ac7a-2fb4f65673e9.0faeefd3-4ad9-4634-98df-75b9aeb92d48</img>
+            <sinopse>A série Forza procura emular as características do desempenho e de condução de um grande número de carros de produção, modificados ou de corrida da vida real. Fprza é visto frequentemente como a resposta da Microsoft a Gran Turismo para as consolas PlayStation. </sinopse>
+            <producer>Microsoft Studios</producer>
+            <category> Sport </category>
+            <yearReleased>2018</yearReleased>
+            <programs>Forza Tech</programs>
+            <platforms>Windows , MacOS</platforms>
+            <teaser>https://www.youtube.com/watch?v=5xy4n73WOMM</teaser>
+        </game>
+    </games>
+    <peripherals>
+        <keyboard>
+            <name>Teclado Mecânico Corsair K60 RGB Pro Gaming Cherry MX Low Profile Speed PT</name>
+            <brand>Corsair</brand>
+            <warranty>2 anos</warranty>
+            <layout>PT-PT - ISO</layout>
+            <connection>USB 3.0</connection>
+            <price>149.90€</price>
+            <review>JohnDon: Excelente, o teclado nunca me falhou e o barulho das teclas é top!!!</review>
+        </keyboard>
+        <headset>
+            <name>Headset Plantronics Poly Blackwire 5220 USB-A</name>
+            <brand>Plantronics</brand>
+            <warranty>2 anos</warranty>
+            <connection>USB 2.0</connection>
+            <price>99.90€</price>
+            <review>AntonioC: Grande som, até me chamam hacker no CS:GO.</review>
+        </headset>
+        <monitor>
+            <name>Monitor Asus TUF Gaming VG27AQ1A IPS 27" QHD 170Hz FreeSync / G-SYNC Compatible</name>
+            <brand>ASUS</brand>
+            <warranty>2 anos</warranty>
+            <screen>Curvo</screen>
+            <resolution>2560x1440 (QHD)</resolution>
+            <aspectratio>16:9</aspectratio>
+            <size>27"</size>
+            <connection>USB 2.0</connection>
+            <price>499.90€</price>
+            <review>alumbina007: É um bocado caro, mas a qualidade é notável! :)</review>
+        </monitor>
+        <mouse>
+            <name>Rato Steelseries Rival 3 8500DPI Preto</name>
+            <brand>Steelseries</brand>
+            <warranty>2 anos</warranty>
+            <connection>USB</connection>
+            <price>38.90€</price>
+            <review>Ana_Cacho_P: o meu namorado Paulo comprou este rato e agora não larga o computador...</review>
+        </mouse>
+        <desktop>
+            <name>Computador Desktop PCDIGA Gaming RicFazeres Prime RF-MA73NJ0</name>
+            <brand>PCDIGA</brand>
+            <warranty>2 anos</warranty>
+            <cpu>AMD Ryzen 7 3700X</cpu>
+            <ram>16 GB RAM</ram>
+            <gpu>Radeon RX 5700 XT</gpu>
+            <storage>500GB SSD</storage>
+            <price>2000.00€</price>
+            <review>RicFazeres: Como é que é maltinha, daqui com vocês é RicFazeres, este desktop é TOP!</review>
+        </desktop>
+    </peripherals>
+</gamezone>

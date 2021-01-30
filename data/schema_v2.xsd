@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootElement
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    targetNamespace="http://wwww.gamezone.com"
+    xmlns="http://wwww.gamezone.com"
+    elementFormDefault="qualified">
+    <xs:elemente name="game">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="title" type="xs:string" minOccurs="1" maxOccurs="1" use="required" />
+                <xs:element name="img" type="xs:string" minOccurs="1" maxOccurs="1" use="required" />
+                <xs:element name="sinopse" type="xs:string" minOccurs="1" maxOccurs="1" use="required" />
+                <xs:element name="producer" type="xs:string" minOccurs="1" maxOccurs="1" use="required" />
+                <xs:element name="category" type="xs:string" minOccurs="0" maxOccurs="1" use="required" />
+                <xs:element name="yearReleased" type="xs:string" minOccurs="1" maxOccurs="1" use="required" />
+                <xs:element name="programs" type="xs:string" minOccurs="0" maxOccurs="1" use="required" />
+                <xs:element name="platfomrs" type="xs:string" minOccurs="0" maxOccurs="1" use="required" />
+                <xs:element name="artists" type="xs:string" minOccurs="0" maxOccurs="1" use="required" />
+                <xs:element name="teaser" type="xs:string" minOccurs="0" maxOccurs="1" use="required" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="games">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="game" minOccurs="0" maxOccurs="unbounded" use="required"/>
+            </xs:sequence>
+        <xs:complexType>
+    </xs:element>
+
+    <xs:elemente name="keyboard">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="name" type="xs:string" minOccurs="1" maxOccurs="1" use="required" />
+                <xs:element name="brand" type="xs:string" minOccurs="1" maxOccurs="1" use="required" />
+                <xs:element name="warranty" type="xs:string" minOccurs="1" maxOccurs="1" use="required" />
+                <xs:element name="layout" type="xs:string" minOccurs="1" maxOccurs="1" use="required" />
+                <xs:element name="connection" type="xs:string" minOccurs="1" maxOccurs="1" use="required" />
+                <xs:element name="price" type="xs:string" minOccurs="1" maxOccurs="1" use="required" />
+                <xs:element name="review" type="xs:string" minOccurs="1" maxOccurs="1" use="required" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:elemente name="headset">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="name" type="xs:string" minOccurs="1" maxOccurs="1" use="required" />
+                <xs:element name="brand" type="xs:string" minOccurs="1" maxOccurs="1" use="required" />
+                <xs:element name="warranty" type="xs:string" minOccurs="1" maxOccurs="1" use="required" />
+                <xs:element name="connection" type="xs:string" minOccurs="1" maxOccurs="1" use="required" />
+                <xs:element name="price" type="xs:string" minOccurs="1" maxOccurs="1" use="required" />
+                <xs:element name="review" type="xs:string" minOccurs="1" maxOccurs="1" use="required" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:elemente name="monitor">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="name" type="xs:string" minOccurs="1" maxOccurs="1" use="required" />
+                <xs:element name="brand" type="xs:string" minOccurs="1" maxOccurs="1" use="required" />
+                <xs:element name="warranty" type="xs:string" minOccurs="1" maxOccurs="1" use="required" />
+                <xs:element name="screen" type="xs:string" minOccurs="1" maxOccurs="1" use="required" />
+                <xs:element name="resolution" type="xs:string" minOccurs="1" maxOccurs="1" use="required" />
+                <xs:element name="aspectratio" type="xs:string" minOccurs="1" maxOccurs="1" use="required" />
+                <xs:element name="connection" type="xs:string" minOccurs="1" maxOccurs="1" use="required" />
+                <xs:element name="price" type="xs:string" minOccurs="1" maxOccurs="1" use="required" />
+                <xs:element name="review" type="xs:string" minOccurs="1" maxOccurs="1" use="required" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:elemente name="mouse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="name" type="xs:string" minOccurs="1" maxOccurs="1" use="required" />
+                <xs:element name="brand" type="xs:string" minOccurs="1" maxOccurs="1" use="required" />
+                <xs:element name="warranty" type="xs:string" minOccurs="1" maxOccurs="1" use="required" />
+                <xs:element name="connection" type="xs:string" minOccurs="1" maxOccurs="1" use="required" />
+                <xs:element name="price" type="xs:string" minOccurs="1" maxOccurs="1" use="required" />
+                <xs:element name="review" type="xs:string" minOccurs="1" maxOccurs="1" use="required" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:elemente name="desktop">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="name" type="xs:string" minOccurs="1" maxOccurs="1" use="required" />
+                <xs:element name="brand" type="xs:string" minOccurs="1" maxOccurs="1" use="required" />
+                <xs:element name="warranty" type="xs:string" minOccurs="1" maxOccurs="1" use="required" />
+                <xs:element name="cpu" type="xs:string" minOccurs="1" maxOccurs="1" use="required" />
+                <xs:element name="ram" type="xs:string" minOccurs="1" maxOccurs="1" use="required" />
+                <xs:element name="gpu" type="xs:string" minOccurs="1" maxOccurs="1" use="required" />
+                <xs:element name="storage" type="xs:string" minOccurs="1" maxOccurs="1" use="required" />
+                <xs:element name="price" type="xs:string" minOccurs="1" maxOccurs="1" use="required" />
+                <xs:element name="review" type="xs:string" minOccurs="1" maxOccurs="1" use="required" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="peripherals">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="keyboard" minOccurs="0" maxOccurs="unbounded" use="required"/>
+                <xs:element ref="headset" minOccurs="0" maxOccurs="unbounded" use="required"/>
+                <xs:element ref="monitor" minOccurs="0" maxOccurs="unbounded" use="required"/>
+                <xs:element ref="mouse" minOccurs="0" maxOccurs="unbounded" use="required"/>
+                <xs:element ref="desktop" minOccurs="0" maxOccurs="unbounded" use="required"/>
+            </xs:sequence>
+        <xs:complexType>
+    </xs:element>
+
+    <xs:element name="gamezone">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="games" minOccurs="0" maxOccurs="unbounded" use="required"/>
+                <xs:element ref="peripherals" minOccurs="0" maxOccurs="unbounded" use="required"/>
+            </xs:sequence>
+        <xs:complexType>
+    </xs:element>
+
+</rootElement>

@@ -1,0 +1,22 @@
+  <% for (var i in mouse) { %>
+    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 d-flex align-items-stretch">
+      <div class="card shadow" style="width: 18rem;">
+        <div class="container">
+          <div class="inner">
+            <img src="" alt="Image 404" class="card-img-top"/>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">
+                <%= mouse[i]["name"][0] %>
+            </h5>
+            <p class="cardplat">
+              <strong>Marca: </strong> <%= mouse[i]["brand"][0] %>
+              <br>
+              <strong>Preco: </strong> <%= mouse[i]["price"][0] %>
+            </p>
+            <a class="btn btn-primary" name="name" href="/perifericos/mouse/<%= mouse[i]["name"][0] %>">Detalhes</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  <% } %>

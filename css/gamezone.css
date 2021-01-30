@@ -1,0 +1,81 @@
+#background {
+  background-image: url('https://i.pinimg.com/736x/d0/13/05/d01305e0cb08611774a41c7328400c84--d-pattern-white-patterns.jpg');
+  background-repeat: repeat;
+  opacity: 0.5;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.card text{
+  max-width: 60ch;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.cardplat{
+  max-width: 30ch;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.card-img-top{
+  height: 280px !important;
+  size: 420px !important;
+}
+/* modificar todos os cards*/
+.cards {
+    display: grid;
+    grid-template-columns: 30vw 1fr 15vw;
+  }
+
+/* para modificar card*/
+.card {
+    background: #dddddd;
+    border-radius: .25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card text{
+  text-align: justify;
+  text-overflow: clip;
+  margin-bottom: 0px;
+}
+.inner{
+  overflow: hidden;
+}
+.inner img{
+  transition: all 1.5s ease;
+}
+.innerjogos{
+  height: 390px;
+  width: 287px;
+}
+
+.inner:hover img{
+  transform: scale(1.5);
+}
+.btn{
+  align-content: right;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+  text-align: left;
+}
+/*margin:
+  0 auto;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+    gap: 40px;
+    font-family: sans-serif;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    grid-template-columns: 500px 500px 500px

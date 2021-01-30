@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="pt">
+  <head>
+    <%-include('partials/head/criadores.ejs')-%>
+  </head>
+  <body>
+    <div id="background">
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+	<%-include('partials/navbar.ejs')-%>
+    <div class="card shadow" style="width: 20rem;">
+        <div class="inner">
+          <img src="https://scontent.fopo2-2.fna.fbcdn.net/v/t1.0-9/61848713_2465597553507065_7325704959763152896_o.jpg?_nc_cat=108&ccb=2&_nc_sid=09cbfe&_nc_ohc=x4OKQGReLSkAX-ZKs_9&_nc_ht=scontent.fopo2-2.fna&oh=511d9789f712133e9c51c1169b18f87d&oe=601EF374" class="card-img-top"/>
+        </div>
+      <div class="card-body">
+        <h5 class="card-title">Ana Machado</h5>
+        <p class="card-text">
+            aka Machadex 19 anos , vive na Maia e gosta de ouvir música e estar com os amigos.
+        </p>
+        <a href="#" class="btn btn-primary" id="btn" onclick="window.open('https://www.linkedin.com/in/ana-rita-machado-53a39b1aa/')">LinkedIn</a>
+      </div>
+      </div>
+      <div class="card shadow" style="width: 20rem;">
+        <div class="inner">
+          <img src="https://scontent.fopo2-2.fna.fbcdn.net/v/t1.0-9/123307350_3583360765034148_4546993079490747858_o.jpg?_nc_cat=106&ccb=2&_nc_sid=09cbfe&_nc_ohc=QUlg1kdo9p4AX_xQh0V&_nc_ht=scontent.fopo2-2.fna&oh=c4cae0a1d489927e1d8f79b0ec9dc7f8&oe=6021BD32" class="card-img-top"/>
+        </div>
+      <div class="card-body">
+        <h5 class="card-title">Bruno Martins</h5>
+        <p class="card-text">
+            aka Indi 21 anos , vive em Alfena e gosta de ir ao ginásio e jogar video-jogos.
+        </p>
+        <a href="#" class="btn btn-primary" id="btn" onclick="window.open('https://www.linkedin.com/in/bruno-martins-8a45001b2/')">LinkedIn</a>
+      </div>
+      </div>
+      <div class="card shadow" style="width: 20rem;">
+        <div class="inner">
+          <img src="https://media.discordapp.net/attachments/783756884721008680/797937780697071616/image0.jpg?width=397&height=530" class="card-img-top"/>
+        </div>
+      <div class="card-body">
+        <h5 class="card-title">Miguel André</h5>
+        <p class="card-text">
+            aka Panadinhos 24 anos , vive em Matosinhas e gosta de cães.
+        </p>
+        <a href="#" class="btn btn-primary" id="btn" onclick="window.open('https://github.com/Panadinhos')">GitHub</a>
+      </div>
+      </div>
+      <div class="card shadow" style="width: 20rem;">
+        <div class="inner">
+          <img src="https://i.ibb.co/YQF2Qv1/Whats-App-Image-2021-01-11-at-11-17-45-1.jpg" class="card-img-top"/>
+        </div>
+      <div class="card-body">
+        <h5 class="card-title">André Borges</h5>
+        <p class="card-text">
+          aka LittleHypnotist 24 anos, vive em Gondomar e gosta de jogar futebol com os amigos.
+        </p>
+        <a href="#" class="btn btn-primary" id="btn" onclick="window.open('https://github.com/LittleHypnotist')">GitHub</a>
+      </div>
+      </div>
+      <div class="sugestao">
+        <div class="container">
+            <div class="mb-3">
+            <div class="col-xs-12">
+              <h2>Sugestão</h2>
+              <form action="" method="post">
+                <label for="email" class="form-label">Endereço de e-mail:</label>
+                <input type="email" class="form-control"  id="email" placeholder="nome@exemplo.com">
+              </div>
+              <div class="mb-3">
+                <label for="sugestao" class="form-label">Sugestão:</label>
+                <textarea class="form-control" id="sugestao" rows="3" id="sug" placeholder="Escreva aqui a sua sugestão..."></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary mb-3">Submeter</button>
+            </form>
+            </div>
+        </div>
+      </div>
+  </body>
+</html>

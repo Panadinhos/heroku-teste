@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <%-include('partials/head/jogo.ejs')-%>
+  </head>
+  <body>
+    <%-include('partials/navbar.ejs')-%>
+    <main>
+        <div class="container">
+
+          <% for (var i in data) { %>
+            <% if (data[i]["title"][0] === nome){%>
+              <br>
+              <h2><%=data[i]["title"][0]%></h2>
+              <br>
+              <img src="<%=data[i]['img'][0]%>"/>
+              <br>
+              <p><strong>Produtor:</strong> <%=data[i]["producer"][0]%></p>
+              <p><strong>Género:</strong> <%=data[i]["category"][0]%></p>
+              <p><strong>Ano de lançamento:</strong> <%=data[i]["yearReleased"][0]%></p>
+              <p><strong>Escrito em:</strong> <%=data[i]["programs"][0]%></p>
+              <p><strong>Artistas:</strong> <%=data[i]["artists"][0]%></p>
+              <p><strong>Descripção:</strong> <%=data[i]["sinopse"][0]%></p>
+              <a class="btn btn-primary" id="btn" onclick="window.open('<%= data[i]["teaser"][0] %>')">Ver teaser</a>
+            <% } %>
+          <% } %>
+        </div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,76 @@
+body{
+  background-image: url('https://i.ibb.co/68D4mS1/662959.png')!important; 
+  background-repeat: repeat;
+}
+
+.card text{
+  max-width: 60ch;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.cardplat{
+  max-width: 30ch;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.card-img-top{
+  height: 280px !important;
+  size: 420px !important;
+}
+/* modificar todos os cards*/
+.cards {
+    display: grid;
+    grid-template-columns: 30vw 1fr 15vw;
+  }
+
+/* para modificar card*/
+.card {
+    background: #444;
+    border-radius: .25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+.card text{
+  text-align: justify;
+  text-overflow: clip;
+}
+.inner{
+  overflow: hidden;
+}
+.inner img{
+  transition: all 1.5s ease;
+}
+.innerjogos{
+  height: 390px;
+  width: 287px;
+}
+
+.inner:hover img{
+  transform: scale(1.5);
+}
+.btn{
+  align-content: right;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+  text-align: left;    
+}
+/*margin:
+  0 auto;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+    gap: 40px;
+    font-family: sans-serif;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    grid-template-columns: 500px 500px 500px
+
+
+    

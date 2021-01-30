@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <%-include('partials/head/perifericos.ejs')-%>
+  </head>
+  <body>
+    <%-include('partials/navbar.ejs')-%>
+    <main>
+        <div class="container">
+
+          <% for (var i in data) { %>
+            <% if (data[i]["name"][0] === nome){%>
+              <br>
+              <h2><%=nome data[i]["name"][0]%></h2>
+              <br>
+              <img src="#" alt="Image 404"/>
+              <br>
+              <p><strong>Marca:</strong> <%=data[i]["brand"][0]%></p>
+              <p><strong>Garantia:</strong> <%=data[i]["warranty"][0]%></p>
+              <p><strong>Processador:</strong> <%=data[i]["cpu"][0]%></p>
+              <p><strong>Memória:</strong> <%=data[i]["ram"][0]%></p>
+              <p><strong>Gráfica:</strong> <%=data[i]["gpu"][0]%></p>
+              <p><strong>Disco:</strong> <%=data[i]["storage"][0]%></p>
+              <p><strong>Preço:</strong> <%=data[i]["price"][0]%></p>
+            <% } %>
+          <% } %>
+        </div>
+    </main>
+  </body>
+</html>
