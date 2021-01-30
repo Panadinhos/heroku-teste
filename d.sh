@@ -3,7 +3,11 @@ heroku git:remote -a pure-sea-76571
 
 git add .
 
-git commit -am "make it better"
+echo -n 'git commit -m '
+
+read cm
+
+git commit -am "$cm"
 
 git push heroku master
 
