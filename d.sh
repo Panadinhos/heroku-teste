@@ -1,6 +1,4 @@
 #!/bin/bash
-heroku login
-
 heroku git:remote -a pure-sea-76571 
 
 git add .
