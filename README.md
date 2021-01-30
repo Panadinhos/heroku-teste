@@ -14,4 +14,4 @@ git push heroku master
 
 git push
 
-- deploid at https://sheltered-dusk-86957.herokuapp.com/
+- deploid at https://pure-sea-76571.herokuapp.com/
