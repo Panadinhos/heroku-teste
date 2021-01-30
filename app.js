@@ -64,6 +64,6 @@ parser.parseString(stringgg, async (err, d) => {
 
 
 
-app.listen(8080, () => {
+app.listen(process.env.PORT, () => {
     console.log('A OUVIR NO PORTO 8080')
 })
